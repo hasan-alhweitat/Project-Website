@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Submit </title>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link rel="stylesheet" href="stylesubmit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <script>
+  function openSlideMenu(){
+    document.getElementById('menu').style.width = '250px';
+    document.getElementById('content').style.marginLeft = '250px';
+  }
+  function closeSlideMenu(){
+    document.getElementById('menu').style.width = '0';
+    document.getElementById('content').style.marginLeft = '0';
+  }
+  </script>
+</head>
+<body>
+
+  <div class="content">
+    <div class="my-store">
+      <h1><i class="fal fa-store"></i>  My Store</h1>
+    </div>
+    <div class="sign">
+      <li>  <a href="signin.html"> Sign In </a> <i class="fas fa-sign-in-alt"></i></li>
+      <li> <a href="signup.html"> Sign Up </a> <i class="fas fa-user-plus"></i></li>
+    </div>
+    <span class="slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </span>
+    <div id="menu" class="nav">
+      <a href="#" class="close" onclick="closeSlideMenu()">
+        <i class="fas fa-times"></i>
+      </a>
+      <h4><i class="fab fa-product-hunt"></i>  Type Products:</h4>
+      <li> <a href="Books.html"> 1. Books  <i class="fas fa-book"></i></a></li>
+      <li> <a href="Glasses.html"> 2. Glasses  <i class="fal fa-glasses"></i></a></li>
+      <li> <a href="Watches.html"> 3. Watches  <i class="fal fa-watch"></i></a></li> 
+    </div>
+    <div class="submit">
+      <h4>Amount to be paid while receiving the order:  ……$</h4>    
+      <form>
+          <input type="submit" value="Submit">
+      </form>
+    </div>
+    <div class="thank">
+      <h4>Thank you for your marketing</h4>
+      <h4>You will be contacted to confirm the request</h4>
+    </div>
+    <div class="all-copy">
+        <h3>Any questions about the products ?</h3>
+        <p> Phone number: 0788658586 <i class="fas fa-phone"></i></p>
+        <p> Email: 20120098@htu.edu.jo <i class="fas fa-envelope"></i></p>
+    </div>
+    <div class="media">
+        <h4>Communicate on social media:</h4>
+        <li> <a href="https://www.facebook.com/"> Facebook  </a> <i class="fab fa-facebook"></i></li>
+        <li> <a href="https://twitter.com/"> Twitter  </a> <i class="fab fa-twitter"></i></li>
+        <li> <a href="https://www.instagram.com/"> Instagram  </a> <i class="fab fa-instagram"></i></li>
+    </div>
+  </div>
+</body>
+</html>

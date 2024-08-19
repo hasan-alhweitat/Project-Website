@@ -1,0 +1,95 @@
+body{
+  background-color: rgb(255, 230, 188);
+  border: 0;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.9fr 0.4fr 1.9fr 0.8fr;
+  gap: 0px 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+} 
+li{
+  list-style-type: none;
+}
+
+.my-store 
+{
+     grid-area: 1/1/2/5; 
+     line-height: 1;   
+     text-align: center;  
+     color: tomato;
+     font-family: 'Abril Fatface', cursive;
+     background-color: rgb(252, 255, 166);
+}
+
+.sgin 
+{
+     font-size: 20px;
+     grid-area: 3/2/4/4; 
+     background-color: rgb(202, 184, 255);
+     text-align: center;
+     border-radius: 155px;
+     padding: 20px;
+}
+.create 
+{
+     grid-area: 4/2/5/4; 
+     color: white;
+     line-height: 3;
+     text-align: center;
+     background-color: rgb(255, 230, 188);
+     text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.logout
+{ 
+  grid-area: 1/4/2/5;
+  font-size: 20px;      
+  line-height: 5;
+  text-indent: 50%;
+  font-family: 'Merienda', cursive;
+  background-color: rgb(252, 255, 166);
+}  
+
+input[type=name]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+text-align: center;
+}
+.submit{
+width: 50%;
+background-color: #4CAF50;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+input[type="password"]
+{
+text-align: center;
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+-webkit-text-security: disc;
+}

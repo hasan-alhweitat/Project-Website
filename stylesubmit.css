@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:800');
+
+body {
+	font-family: 'Alegreya Sans', sans-serif;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+}
+.nav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	opacity: .9;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.7s;
+}
+.nav a {
+	display: block;
+	padding: 20px 30px;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+}
+.nav a:hover {
+	color: black;
+	transition: 0.4s;
+}
+.nav .close {
+	position: absolute;
+	top: 0;
+	right: 22px;
+	margin-left: 50px;
+	font-size: 30px;
+	color: black;
+}
+.slide a {
+	color: #000;
+	font-size: 36px;
+}
+.content {	
+	display: grid; 
+	grid-template-columns: 1fr 1fr 1fr 1fr; 
+	grid-template-rows: 1fr 1fr 1fr 1fr; 
+	gap: 0px 0px;
+	padding: 0;
+	transition: margin-left 0.7s;
+	overflow: hidden;
+	width: 100%;
+  }
+  .my-store 
+  {  
+	  line-height: 5;   
+	  text-align: center;  
+	  color: tomato;
+	  font-family: 'Abril Fatface', cursive;
+	  grid-area: 1/1/2/5;
+	  background-color: rgb(252, 255, 166);
+  }
+   a:link {
+	 text-decoration: none;
+   }
+   a:hover {
+	 text-decoration: underline;
+   } 
+   li{
+	 list-style-type: none;
+   }
+   .sign
+ {   
+      font-size: 20px;      
+      line-height: 5;
+      text-indent: 50%;
+      grid-area: 1/4/2/5;
+      font-family: 'Merienda', cursive;
+ }
+ .slide
+{
+    font-size: 30px;  
+     grid-area: 1 / 1 / 2 / 2; 
+     font-family: 'Merriweather', serif;
+     color: darkblue;
+     text-indent: 50%;
+     line-height:5;
+     font-size: 250%;
+}
+#menu
+{  
+    font-size: 30px;  
+    line-height: 3;
+    background-color: rgb(193, 255, 215);
+	color: black;
+}
+ .all-copy 
+ {   
+      font-size: 25px;   
+      color: black;
+      text-indent: 50px;
+      line-height: 2;
+      grid-area: 4/1/5/3; 
+      background-color: rgb(255, 230, 188);
+      text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;  
+ }
+ .media 
+ {
+      font-size: 25px;  
+      background-color: rgb(255, 230, 188);
+      line-height: 2;
+      grid-area: 4 / 3 / 5 / 5; 
+      text-indent: 10%;
+      font-family: 'Twinkle Star', cursive;
+}
+.submit 
+  {
+    font-size: 20px;
+    grid-area: 2 / 1 / 3 / 5;
+    line-height: 4;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+    direction: center;
+    background-color: rgb(202, 184, 255);
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .thank 
+  {
+    grid-area: 3 / 1 / 4 / 5; 
+    line-height: 2;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+    direction: center;
+    background-color: rgb(202, 184, 255);
+  }

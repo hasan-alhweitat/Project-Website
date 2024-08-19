@@ -1,0 +1,133 @@
+body{
+    background-color: rgb(255, 230, 188);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+.container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  grid-template-rows: 1fr 0.5fr 1fr 1.5fr 1fr 1fr; 
+  gap: 0px 0px; 
+}
+  
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  li{
+    list-style-type: none;
+  } 
+
+  .my-store 
+    {
+       grid-area: 1/1/2/5; 
+       line-height: 1;   
+       text-align: center;  
+       color: tomato;
+       font-family: 'Abril Fatface', cursive;
+       background-color: rgb(252, 255, 166);
+    }
+  
+  .sign-up 
+    {
+      font-size: 20px;
+       grid-area: 3/2/4/4; 
+       text-align: center;
+    }
+  
+  .green 
+    { 
+      grid-area: 4/2/5/3; 
+      text-align: center;
+    }
+  
+  .yallo 
+    { 
+      grid-area: 4/3/5/4; 
+      text-align: center;
+    }
+  
+  .all-copy 
+    { 
+      grid-area: 5/2/6/4; 
+      text-align: center;
+    }
+  
+  .creat 
+    { 
+      grid-area: 6/2/7/4;
+      color: white;
+      line-height: 3;
+      text-align: center;
+      background-color: rgb(255, 230, 188);
+      text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; 
+    }
+  .all-creat{
+    grid-area: 3/2/6/4;
+    background-color: rgb(202, 184, 255);
+    border-radius: 2565px;
+    z-index: -1;
+  }  
+
+    input[type=text]
+      {
+        width: 75%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      input[type=submit] 
+      {
+        width: 75%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-align: center;
+      }
+      input[type="password"]
+      {
+        text-align: center;
+        width: 75%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        -webkit-text-security: disc;
+      }
+      input[type=number]
+      {
+        width: 75%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      input[type=email]
+      {  
+        width: 75%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: center;
+      }
